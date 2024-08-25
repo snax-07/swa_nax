@@ -15,8 +15,8 @@ function Port() {
     return (
         <>
             <div className='cont bg-[#161b22] min-h-screen px-4 md:px-8 lg:px-16'>
-                <div className='main-cont bg-[#161b22] flex flex-col lg:flex-row'>
-                    <div className='left-cont flex flex-col bg-[#161b22] gap-4 lg:w-1/3'>
+                <div className='main-cont bg-[#161b22] flex flex-col lg:flex-col'>
+                    <div className='left-cont flex flex-col bg-[#161b22] gap-4 lg:w-full'>
                         {/* THEME SWITCHER 
                         <div className='flex items-center p-3 w-full rounded-xl mx-auto bg-[#292e36] justify-between'>
                             <h2 className='font-bold text-[#9babbf]'>Theme Switcher</h2>
@@ -186,7 +186,7 @@ function Port() {
                         </div>
                     </div>
 
-                    <div className='right-cont lg:w-2/3'>
+                    <div className='right-cont lg:w-full'>
                         {/* GitHub Projects */}
                         <div className='bg-[#24292f] rounded-xl p-4'>
                             <h1 className='text-[#9babbf]'>GitHub Projects</h1>
